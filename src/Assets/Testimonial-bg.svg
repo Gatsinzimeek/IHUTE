@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="452px" height="801px" viewBox="0 0 452 801" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>装饰-2</title>
+    <defs>
+        <linearGradient x1="60.453987%" y1="0%" x2="48.8677923%" y2="87.3580722%" id="linearGradient-1">
+            <stop stop-color="#287BFF" offset="0%"></stop>
+            <stop stop-color="#2479FF" stop-opacity="0.253878934" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="网站首页-所有内容文案" transform="translate(-1468.000000, -1024.000000)" fill="url(#linearGradient-1)">
+            <g id="蓝色" transform="translate(0.000000, 1024.000000)">
+                <g id="装饰-2" transform="translate(1468.000000, -0.000000)">
+                    <path d="M118.028986,0 C40.8879404,0 -16.5666994,4.99246196 5.82188597,85.182544 C28.2104713,165.372626 216.132302,98.878598 288.504076,184.009751 C360.87585,269.140903 390.55241,331.990427 349.720393,483.097284 C333.640694,542.603353 280.638269,707.671826 44.526193,799.923201 C41.976574,800.919363 46.6024174,800.233583 54.3001783,800 C82.9462407,799.130757 178.359118,800 272.580721,800 C366.802325,800 452,799.961175 452,800 C452,944.616159 452,677.949492 452,0 C280.780022,0 169.45635,0 118.028986,0 Z" id="路径-9"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

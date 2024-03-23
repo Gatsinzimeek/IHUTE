@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+/* 
+
+@media (min-width: 768px) {
+    .navblock{
+        display: flex;
+        flex-direction: column;
+        
+        background-color: white;
+        position: fixed;
+        top: 100px;
+        right: 0px;
+        margin-top: 0;
+        width: 100px;
+        height: 100%;
+        text-align: center;
+        z-index: 11;
+    } 
+}   */
+
+.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Adjust as needed */
+    z-index: 1000; /* Adjust as needed */
+}
+
+.testimonial-container{
+    background-image: url('../src/Assets/wave1.svg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    height: 100vh;
+}
