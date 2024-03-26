@@ -5,9 +5,9 @@ import rateBlack from '../../Assets/rateBlack.png';
 import rateYellow from '../../Assets/rateYellow.png';
 
 const PersonDetail = ({...otherProps}) => {
-    const {image, name, description} = otherProps;
+    const {image, name} = otherProps;
   return (
-    <div className="w-[39%] h-[60%] p-10 m-auto rounded-[15%] shadow-2xl max-md:w-[80%]">
+    <div className={`w-[70%] h-[100%]  p-10  rounded-[15%] shadow-2xl max-md:w-[80%]`}>
     <FontAwesomeIcon icon={faQuoteLeft} style={{float:'left', fontSize: '30px',margin:'10px', color: '#ccc'}}/>
       <p className="m-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit harum quisquam officia obcaecati cumque est culpa perferendis neque deserunt! Repudiandae, tempore neque! Laboriosam dolore itaque mollitia commodi numquam. In, recusandae.
       <FontAwesomeIcon icon={faQuoteRight} style={{fontSize: '30px',float:"right", margin:'5px', color: '#ccc'}}/>
