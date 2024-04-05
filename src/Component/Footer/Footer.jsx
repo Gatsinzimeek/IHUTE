@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope,faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   return (
-    <div className='bg-[#fff]'>
+    <footer className='bg-[#fff]'>
     <div className='flex justify-center  gap-3'>
       <div>
         <img src={Logo} className='w-[120px]' alt="logo"/>
@@ -24,20 +24,20 @@ const Footer = () => {
         <p>
           We are ready to hear what you think about us, feedBack or recommendations.
         </p>
-        <textarea name="Enter you feedback here..." id="" cols="35" rows="4"></textarea><br />
+        <textarea name="Enter you feedback here..." className='border-3' cols="35" rows="4"></textarea><br />
         <Button>Send Feedback</Button>
       </div>
     </div>
-    <div style={{content: '', }} className='flex justify-center justify-items-center'>
+    <div className='flex justify-center justify-items-center border-t border-[#ccc] p-7 mt-3'>
       <div>
-        <p> &copy; gutwara.com All Rights Reserved. Developed by Gatsinzi Meek</p>
+        <p> &copy; Ihute All Rights Reserved. Developed by Gatsinzi Meek</p>
       </div>
-      <div>
+      <div >
         <Link to='#'>Terms & Condition</Link> 
         <Link to='#'>Privacy Policy</Link> 
       </div>
     </div>
-    </div>
+    </footer>
   )
 }
 
