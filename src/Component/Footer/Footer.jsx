@@ -19,6 +19,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className='flex-5'>
+        <h1>Company</h1>
+        
+        <Link to='#'>About</Link> 
+        <Link to='#'>Testimonial</Link> 
+        <Link to='#'>FAQ</Link> 
+        <Link to='#'>Contact Us</Link> 
+      </div>
       <div>
         <h1> Give Us FeedBack</h1>
         <p>
@@ -31,10 +39,6 @@ const Footer = () => {
     <div className='flex justify-center justify-items-center border-t border-[#ccc] p-7 mt-3'>
       <div>
         <p> &copy; Ihute All Rights Reserved. Developed by Gatsinzi Meek</p>
-      </div>
-      <div >
-        <Link to='#'>Terms & Condition</Link> 
-        <Link to='#'>Privacy Policy</Link> 
       </div>
     </div>
     </footer>

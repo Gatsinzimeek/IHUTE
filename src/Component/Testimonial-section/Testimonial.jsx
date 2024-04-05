@@ -28,7 +28,7 @@ const Testimonial = () => {
     <section id='Testimonial' className='text-center m-12 relative'>
        <h1 className='text-[30px] mb-[20px]'>What Our Customer say</h1>
        <p className='w-[50%] m-auto text-center'>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
-      <Carousel responsive={responsive} className='w-[80%] m-auto p-10 '>
+      <Carousel responsive={responsive} className='w-[80%] m-auto p-10 z-10 '>
        
           <PersonDetail image={profile1} name='Igihozo Audrey' />
           <PersonDetail image={profile2} name='Gatsinzi Ernest' />
