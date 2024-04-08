@@ -6,6 +6,7 @@ import Login from "./Router/Authentication/Login/Login";
 import About from "./Component/About-section/About";
 import Testimonial from "./Component/Testimonial-section/Testimonial";
 import Dashboard from "./Router/Dashboard/dashboard";
+import PrivateRoute from "./Router/PrivateRoute/PrivateRoute";
 function App() {
   return (
     <Routes>
@@ -16,7 +17,7 @@ function App() {
         <Route path="/Login" Component={Login}></Route>
         <Route path="/Registration" Component={Registration}></Route>
       </Route>
-      <Route path="/Dashboard" element={<Dashboard/>}>
+      <Route path="/Dashboard" element={<PrivateRoute><Dashboard/></PrivateRoute>}>
         <Route></Route>
       </Route>
     </Routes>

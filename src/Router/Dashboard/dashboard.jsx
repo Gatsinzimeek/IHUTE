@@ -15,7 +15,7 @@ const Dashboard = () => {
     <div className='flex'>
     <div>
         <h1>Welcome</h1>
-        <h3>{currentUser.email}</h3>
+        <h3>{currentUser && currentUser.email}</h3>
         <Button clicked={handleLogout} >Log out</Button>
     </div>
     <div>
