@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope,faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   return (
-    <footer className='bg-[#fff]'>
-    <div className='flex justify-center  gap-3'>
+    <footer className='bg-[#fff] w-[100%]'>
+    <div className='flex justify-around  max-sm:grid max-sm:items-center  gap-3'>
       <div>
         <img src={Logo} className='w-[120px]' alt="logo"/>
         <p>We are here for you to help you to Save time</p>
@@ -20,19 +20,23 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex-5'>
-        <h1>Company</h1>
+        <h1 className='my-4 text-[20px]' >Company <span className='block border-b border-b-px w-[40px] border-[#3e61ac]'></span></h1>
+        <div>
+          <ul className='leading-[2em]'>
+            <li><Link to='#' className='hover:border-b-[2px] py-[4px] border-yellow-400'>About</Link></li> 
+            <li><Link to='#'  className='hover:border-b-[2px] py-[4px] border-yellow-400'>Testimonial</Link></li> 
+            <li><Link to='#'  className='hover:border-b-[2px] py-[4px] border-yellow-400'>FAQ</Link></li> 
+            <li><Link to='/contact'  className='hover:border-b-[2px] py-[4px] border-yellow-400'>Contact Us</Link></li>
+          </ul> 
+        </div>
         
-        <Link to='#'>About</Link> 
-        <Link to='#'>Testimonial</Link> 
-        <Link to='#'>FAQ</Link> 
-        <Link to='#'>Contact Us</Link> 
       </div>
       <div>
-        <h1> Give Us FeedBack</h1>
+        <h1 className='my-4 text-[20px]'> Give Us FeedBack <span className='block border-b border-b-px w-[80px] border-[#3e61ac]'></span></h1>
         <p>
-          We are ready to hear what you think about us, feedBack or recommendations.
+          We are ready to hear what you think about us,<br /> feedBack or recommendations.
         </p>
-        <textarea name="Enter you feedback here..." className='border-3' cols="35" rows="4"></textarea><br />
+        <textarea name="Enter you feedback here..." placeholder='Prodive your Insight of Improvement ....' className='p-3 outline-none border-[1px] border-solid border-[#ccc] rounded-lg' cols="35" rows="4"></textarea><br />
         <Button>Send Feedback</Button>
       </div>
     </div>
