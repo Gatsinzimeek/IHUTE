@@ -12,7 +12,7 @@ const Dashboard = () => {
         redict('/login');
     }
   return (
-    <div className='flex'>
+    <div className='flex w-full h-full bg-[#c6c4c4]'>
     <div>
         <h1>Welcome</h1>
         <h3>{currentUser && currentUser.email}</h3>
