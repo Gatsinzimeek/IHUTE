@@ -26,8 +26,8 @@ const Testimonial = () => {
   };
   return (
     <section id='Testimonial' className='text-center m-12 relative'>
-       <h1 className='text-[30px] mb-[20px]'>What Our Customer say</h1>
-       <p className='w-[50%] m-auto text-center'>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
+       <h1 className='text-[45px] font-extrabold mb-[20px]'>What Our Customer say <span className='block m-auto border-b border-b-px w-[180px] border-yellow-400'></span></h1>
+       <p className='w-[50%] m-auto text-center max-sm:w-[80%]'>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
       <Carousel responsive={responsive} className='w-[80%] m-auto p-10 z-10 '>
        
           <PersonDetail image={profile1} name='Igihozo Audrey' />
