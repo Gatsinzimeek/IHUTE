@@ -6,7 +6,7 @@ import { faEnvelope,faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   return (
     <footer className='bg-[#fff] w-[100%]'>
-    <div className='flex justify-around  max-sm:grid max-sm:items-center  gap-3'>
+    <div className='flex justify-around  max-md:grid max-sm:items-center  gap-3'>
       <div>
         <img src={Logo} className='w-[120px]' alt="logo"/>
         <p>We are here for you to help you to Save time</p>
