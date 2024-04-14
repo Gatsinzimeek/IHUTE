@@ -9,7 +9,7 @@ import FacebookIcon from '../../../Assets/facebook.png'
 const Login = () => {
   const SingwithGoogle = async () => { 
     await LoginWithGoogle()
-    Redirect('/dashboard');
+    Redirect('/admin');
   };
   const SingwithFacebook = async () => {await LoginWithFacebook()};
 
@@ -31,7 +31,7 @@ const Login = () => {
 
         try{
           LoginWithEmailAndPassword(Email,Pin);
-          Redirect('/dashboard');
+          Redirect('/admin');
         }catch(error){
           if(error.code === 'auth/email-already-in-use'){
               alert('cannot create user, email already in use');
