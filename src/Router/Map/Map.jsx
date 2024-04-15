@@ -1,11 +1,11 @@
 import React from "react";
 
-const Setting = () => {
+const Map = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <p>Map Here</p>
     </div>
   );
 };
 
-export default Setting;
+export default Map;

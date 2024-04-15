@@ -1,11 +1,11 @@
 import React from "react";
 
-const Setting = () => {
+const TopBar = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <p>Top Bar</p>
     </div>
   );
 };
 
-export default Setting;
+export default TopBar;
