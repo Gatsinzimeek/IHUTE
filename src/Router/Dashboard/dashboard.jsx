@@ -3,7 +3,7 @@ import TopBar from "../Global/TopBar";
 import SideBar from "../Global/SideBar";
 const Dashboard = () => {
   return (
-    <div className="flex justify-between ">
+    <div className="flex justify-between  bg-[#E2E8F0]">
       <SideBar />
       <main className="w-[80%] min-h-[100vh] flex flex-col">
         <TopBar></TopBar>

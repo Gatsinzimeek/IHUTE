@@ -6,15 +6,14 @@ import Login from "./Router/Authentication/Login/Login";
 import About from "./Component/About-section/About";
 import Testimonial from "./Component/Testimonial-section/Testimonial";
 import PrivateRoute from "./Router/PrivateRoute/PrivateRoute";
-import { UserContext } from "./Context/User Context/UserContext";
-import { useContext } from "react";
 import Dashboard from "./Router/Dashboard/dashboard";
 import Setting from "./Router/Setting/Setting";
 import Map from "./Router/Map/Map";
 import AdminHome from "./Router/Dashboard/Home";
 import PrivateLoginRouter from "./Router/PrivateRoute/PrivateLoginRouter";
+import Buses from "./Router/Buses/Buses";
+import Detail from "./Router/Details/Detail";
 function App() {
-  const { currentUser } = useContext(UserContext);
   return (
     <Routes>
       <Route
@@ -43,6 +42,8 @@ function App() {
         <Route path="home" element={<AdminHome />}></Route>
         <Route path="setting" element={<Setting />}></Route>
         <Route path="map" element={<Map />}></Route>
+        <Route path="Buses" element={<Buses />} />
+        <Route path="Info" element={<Detail />} />
       </Route>
     </Routes>
   );

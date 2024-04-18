@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -13,7 +15,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
+
 /* 
 
 @media (min-width: 768px) {
@@ -37,11 +40,13 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff; /* Adjust as needed */
-    z-index: 1000; /* Adjust as needed */
+    background-color: #fff;
+    /* Adjust as needed */
+    z-index: 1000;
+    /* Adjust as needed */
 }
 
-.testimonial-container{
+.testimonial-container {
     background-image: url('../src/Assets/wave1.svg');
     background-repeat: no-repeat;
     width: 100vw;
