@@ -3,19 +3,27 @@ import { faBars, faSearch } from "@fortawesome/free-solid-svg-icons";
 const TopBar = () => {
   return (
     <div className="flex items-center ">
-      <span className=" max-md:inline-block">
-        <FontAwesomeIcon
-          icon={faBars}
-          className=" hover:text-yellow-400 text-[40px]  cursor-pointer"
-        />
-      </span>
-      <div className="relative">
-        <input
-          type="text"
-          placeholder="Search..."
-          className="p-2 rounded-2xl"
-        />
-        <FontAwesomeIcon icon={faSearch} className="absolute top-0" />
+      <div className="flex items-center ">
+        <span className=" max-md:inline-block ">
+          <FontAwesomeIcon
+            icon={faBars}
+            className=" hover:text-yellow-400 text-[20px]  cursor-pointer"
+          />
+        </span>
+        <div className="relative">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="p-2 rounded-[30px] outline-none"
+          />
+          <FontAwesomeIcon
+            icon={faSearch}
+            className="absolute right-3 top-3 cursor-pointer"
+          />
+        </div>
+        <div>
+          
+        </div>
       </div>
     </div>
   );
