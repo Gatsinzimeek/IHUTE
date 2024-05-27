@@ -1,7 +1,7 @@
 const AdminHome = () => {
   return (
     <div>
-      <p>admin home</p>
+      <div></div>
     </div>
   );
 };
